@@ -1,0 +1,26 @@
+{
+  "home": "Home",
+  "about" : "About",
+  "service" : "Service",
+  "portfolio" : "Portfolio",
+  "contact" : "contact",
+  "about-description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel blanditiis ab odio obcaecati suscipit minima est laboriosam nihil? Sint quos esse cumque quae a, voluptatem quis sequi quia nemo, vel ab soluta, eum illo error consequuntur delectus sapiente nostrum magni placeat perferendis earum. Nesciunt ex vitae sunt hic magnam in sit quasi.",
+  "hello":"Hello",
+  "my-name" : "Haneen",
+  "position" : "Professional Freelancer Web Developer",
+  "service-provide" :"Services I Provide",
+  "contact-me" : "get in touch",
+  "phone" : "Phone",
+  "number":"0935726014",
+  "email" : "Email",
+  "address" : "Address",
+  "address-name" : "Syria",
+  "sand":"Sand Message",
+  "name":"name",
+  "subject":"Subject",
+  "message":"Message",
+  "save": "Save",
+  "no": "No",
+  "yes": "Yes"
+
+}

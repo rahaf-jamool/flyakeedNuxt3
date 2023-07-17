@@ -1,0 +1,14 @@
+$color_1: #000;
+$background-color_1: #00a78e;
+
+footer {
+    background-color: $background-color_1;
+
+    .copyright-text {
+        padding: 10px 0;
+        font-size: 18px;
+        color: $color_1;
+        font-weight: 300;
+        margin: 10px 0 0;
+    }
+}

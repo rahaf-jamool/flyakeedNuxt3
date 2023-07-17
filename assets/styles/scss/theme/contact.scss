@@ -1,0 +1,87 @@
+$color_1: #00a78e;
+$color_2: #000;
+$color_3: #646f87;
+$color_4: #645F87;
+$background-color_1: #f7f7f7;
+$background-color_2: #F7F7F7;
+$background-color_3: transparent;
+
+.contact-section {
+	min-height: 100vh;
+	background-color: $background-color_1;
+	.contact-item {
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+		padding: 20px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.contact-item-inner {
+		padding: 30px 15px;
+		text-align: center;
+		box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+		border-radius: 5px;
+		width: 100%;
+		i {
+			font-size: 25px;
+			color: $color_1;
+		}
+		span {
+			display: block;
+			font-size: 16px;
+			font-weight: 600;
+			color: $color_2;
+			margin: 15px 0 10px;
+			text-transform: capitalize;
+		}
+		p {
+			font-size: 16px;
+			color: $color_3;
+			line-height: 26px;
+			margin: 0;
+		}
+	}
+	.contact-form {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-top: 50px;
+	}
+	.w-50 {
+		padding: 0 15px;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.input-group {
+		margin: 0 0 25px;
+		border-radius: 30px;
+		background-color: $background-color_2;
+		box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+		.input-control {
+			height: 45px;
+			display: block;
+			width: 100%;
+			border-radius: 30px;
+			border: none;
+			outline: none;
+			background-color: $background-color_3;
+			font-size: 16px;
+			padding: 0 15px;
+			transition: all 0.3s ease;
+			color: $color_4;
+			&:focus {
+				border: 1px solid #00a78e;
+			}
+		}
+		textarea.input-control {
+			height: 180px;
+			padding-top: 15px;
+			resize: none;
+		}
+	}
+	.submit-btn {
+		flex: 0 0 100%;
+		max-width: 100%;
+		text-align: right;
+		padding: 0 15px;
+	}
+}

@@ -1,0 +1,112 @@
+$color_1: rgba(100, 111, 135, 0.58);
+$color_2: #00a78e;
+$color_3: #000;
+$color_4: #646f87;
+$background-color_1: #f7f7f7;
+$background-color_2: #00a78e;
+
+.home-section {
+    position: relative;
+    background-color: $background-color_1;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 80px;
+
+    .home-text {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 25px;
+
+        h4 {
+            font-size: 30px;
+            font-weight: 600;
+            letter-spacing: 4px;
+            color: $color_2;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-weight: 700;
+            margin-top: 15px;
+            color: $color_3;
+        }
+
+        span {
+            font-size: 18px;
+            line-height: 28px;
+            color: $color_3;
+            font-weight: 500;
+            display: block;
+            margin-top: 15px;
+        }
+
+        p {
+            font-size: 16px;
+            color: $color_4;
+            font-weight: 24px;
+            margin-top: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+        }
+    }
+
+    .home-image {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 25px;
+
+        .img-box {
+            img {
+                position: relative;
+                width: 100%;
+                z-index: 789;
+            }
+        }
+    }
+}
+
+.header-social {
+    position: absolute;
+    top: 53%;
+    left: 50px;
+    transform: translateY(-53%);
+    border: 1px solid rgba(0, 167, 142, 0.21);
+    border-radius: 50px;
+
+    li {
+        a {
+            font-size: 18px;
+            display: block;
+            text-align: center;
+            padding: 20px 15px;
+            color: $color_1;
+            transition: all 0.3s ease-out 0s;
+
+            &:hover {
+                color: $color_2;
+            }
+        }
+    }
+}
+
+.header-hero-shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 1000%;
+        height: 100%;
+        background-color: $background-color_2;
+        transform: skewX(20deg);
+        top: 0;
+        left: 0;
+    }
+}
